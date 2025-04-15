@@ -1,0 +1,574 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior:smooth;
+scrollbar-width: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);}
+
+header{padding-left: 20px;
+    font-size: 20px;
+    color: aqua;
+    background-color: black;
+    text-shadow: 0px 0px 3px aqua;}
+
+    .header{display: flex;
+        justify-content:space-between;
+        align-items:center;
+        height: 40px;
+        margin-right: 16px;
+        margin-top: 15px;
+        font-size: 20px;
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(45px);
+    }
+
+    span{color: aqua;}
+
+
+    nav a{position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aqua;
+        margin-left: 19px;
+        text-shadow: 0px 0px 3px aqua;
+        }
+        a::after{content: "";
+            position: absolute;
+            background-color: aqua;
+            height: 1px;
+            width: 0;
+            left: 0;
+            bottom: -2px;
+            transition: 0.6s;
+        }
+
+        a:hover{
+            color: white;
+        }
+
+        nav a:hover::after{width: 100%;
+            transform: scaleX(1);}
+
+
+            #Home{
+                display: flex;
+                justify-content: left;
+                margin-top: 80px;
+                margin-left: 0px;
+                padding-left: 80px;
+                color: white;
+                margin-bottom: 80px;
+                padding-top: 100px;
+                padding-bottom: 100px;}
+
+                .image img{height: 400px;
+                    width: 400px;
+                    background-color: none;
+                    border-radius: 300px;
+                    box-shadow: 0px 0px 60px aqua,0px 0px 60px aqua;
+                    transition: 0.5s;}
+
+                    .image img:hover{box-shadow: 0px 0px 50px rgb(0, 255, 179),0px 0px 50px rgb(0, 255, 179);
+                        cursor: pointer;}
+
+                    .image{position: relative;
+                        margin-top: -60px;
+                        margin-right: -600px;
+                        margin-left: 200px;}
+
+                h3{
+                    font-size: 30px;
+                }
+                h1{font-size: 40px;}
+                p{
+                    margin-top: 15px;
+                    font-size: 18px;
+                }
+
+                .i{margin-top: 240px;
+                    margin-left: -544px;
+                    
+                }
+
+                .i a{display: inline-block;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: aqua;
+                    width: 45px;
+                    font-size: 20px;
+                    border: 1px solid aqua;
+                    border-radius: 100%;
+                    padding: 10px;
+                    margin-left: 20px;
+                    transition: 0.3s ease-in-out;
+                }
+
+                .i a:hover{
+                    transform: scale(1.2) translateY(-3px);
+                    box-shadow: 0px 0px 8px aqua;
+                    background-color: aqua;
+                    color: black;
+                }
+                .i a i{
+                    padding-left: 1.5px;
+                    padding-top: 2px;
+                }
+
+                .aboutme{
+                    
+                    margin-top: 2800px;
+                    display: flex;
+                    justify-content: left;
+                    margin-left: 100px;
+                    }
+
+                    .about{color: aqua;
+                        cursor: pointer;
+                        margin-left: 20px;
+                        margin-top: 50px;
+                        }
+
+                    .about::after{content: "";
+                        position: absolute;
+                        background-color: aqua;
+                        height: 1px;
+                        width: 0;
+                        left: 0;
+                        border-bottom: -2px;
+                        transition: 0.6s;
+                    }
+
+                    .im img{height: 400px;
+                        width: 400px;
+                        background-color: none;
+                        border-radius: 300px;
+                        box-shadow: 0px 0px 60px aqua,0px 0px 60px aqua;
+                        transition: 0.5s;}
+
+                        .im img:hover{box-shadow: 0px 0px 50px rgb(0, 255, 179),0px 0px 50px rgb(0, 255, 179);
+                            cursor: pointer;}
+
+
+                        .im{position: relative;
+                            margin-left: 700px;
+                            margin-top: -400px;
+                            margin-bottom: 20px;}
+            
+
+                        .aboutt{margin-left: 20px;
+                            margin-top: 80px;
+                        }
+
+                        h3{color: white;
+                            margin-top: 15px;
+                    }
+
+                    .b{margin-top: 300px;
+                        margin-left: -390px;}
+
+                        .b a{text-decoration: none;
+                            color:white;}
+
+                            .b:hover{color: black;}
+
+
+                            #aboutme{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                margin-top: 80px;
+                                padding-top: 1px;}
+                
+
+.para{color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 15px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-indent: 50px;}
+
+
+    #eq h1{color: aqua;
+        padding-left: 20px;
+        }
+
+        .eq{padding-top: 45px;}
+
+        .table p{
+            color: white;
+            padding-left: 20px;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: -10px;
+        }
+
+        .tablee{color: white;
+            margin-left: 20px;
+            margin-top: 36px;
+            font-size: 25px;
+            }       
+            
+            .table th{color:black;
+                background-color: aqua;
+                }
+
+        
+
+        table,th,td{color: white;
+            border: 1px solid aqua;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 18px 18px;
+            }
+
+            #skills{padding-top: 5px;}
+            
+            #skills h1{color: aqua;
+                text-align: center;
+                margin-top: 80px;
+                margin-bottom: 20px;}
+
+
+                    #skills .info p{color: white;}
+
+                    .skillmain{width: 70%;
+                        display:grid;
+                        grid-template-columns: repeat(2,1fr);
+                        grid-row-gap: 30px;
+                        grid-column-gap: 50px;
+                        padding-left: 70px;}
+
+
+                        .skillbar{margin-bottom: 30px;}
+
+                        .skillmain h3{margin-bottom: 10px;
+                            text-align: center;}
+
+                            .skillleft .skillbar .info{display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 0px 10px;}
+
+                                .skillleft .skillbar .bar{width: 100%;
+                                    height: 10px;
+                                    background-color: rgb(48, 21, 21);
+                                    border-radius: 25px;
+                                    margin-top: 10px;
+                                    position: relative;}
+
+                                    .skillbar .bar span{width: 50%;
+                                        height: 100%;
+                                        position: absolute;
+                                        left: 0;
+                                    background: aqua;
+                                    border-radius: 25px;
+                                    box-shadow: 0px 0px 5px aqua;}
+
+                                    .skillbar .bar .html{width: 85%;
+                                        animation: html 2s;}
+                                    .skillbar .bar .css{width: 75%;
+                                        animation: css 2s;}
+                                    .skillbar .bar .js{width: 70%;
+                                        animation: js 2s;}
+                                    .skillbar .bar .react{width: 95%;
+                                        animation: react 2s;}
+
+                                        @keyframes html{
+                                            0%{width: 0%;}
+                                            100%{width: 85%;}
+                                        }
+                                        @keyframes css{
+                                            0%{width: 0%;}
+                                            100%{width: 75%;}
+                                        }
+                                        @keyframes js{
+                                            0%{width: 0%;}
+                                            100%{width: 70%;}
+                                        }
+                                        @keyframes react{
+                                            0%{width: 0%;}
+                                            100%{width: 95%;}
+                                        }
+
+                                        .skillright h3{margin-bottom: 10px;
+                                            text-align: center;
+                                            padding-left: 100px;}
+
+                                           .skillmain .skillright .pp{width: 90px;
+                                                height: 90px;
+                                               }
+
+                             .pp{margin-left: 200px;
+                                margin-top: 50px;}
+
+                                              .outer{height: 90px;
+                                                    width: 90;
+                                                    border-radius: 50%;
+                                                    box-shadow: 0px 0px 5px -1px white;
+                                                    padding: 14.5px;}
+
+                                                    .inner{height: 60px;
+                                                        width: 60px;
+                                                        border-radius: 50%;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        box-shadow: inset 0px 0px 3px white;}
+
+                                                       .num{color: white;
+                                                            font-weight: 20px;}
+
+                                                            .outerr{height: 90px;
+                                                                width: 90px;
+                                                                border-radius: 50%;
+                                                                box-shadow: 0px 0px 5px -1px white;
+                                                                padding: 14.5px;}
+            
+                                                                .innerr{height: 60px;
+                                                                    width: 60px;
+                                                                    border-radius: 50%;
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                    box-shadow: inset 0px 0px 3px white;}
+            
+                                                                   .numm{color: white;
+                                                                        font-weight: 20px;}
+
+                                                                        .outerrr{height: 90px;
+                                                                            width: 90px;
+                                                                            border-radius: 50%;
+                                                                            box-shadow: 0px 0px 5px -1px white;
+                                                                            padding: 14.5px;}
+                        
+                                                                            .innerrr{height: 60px;
+                                                                                width: 60px;
+                                                                                border-radius: 50%;
+                                                                                display: flex;
+                                                                                align-items: center;
+                                                                                justify-content: center;
+                                                                                box-shadow: inset 0px 0px 3px white;}
+                        
+                                                                               .nummm{color: white;
+                                                                                    font-weight: 20px;}
+
+                                                            .cir{fill: none;
+                                                                stroke: aqua;
+                                                                stroke-width: 15px;
+                                                                stroke-dasharray: 450;
+                                                                stroke-dashoffset: 450;
+                                                                animation: anim 2s linear forwards;}
+
+                                                                .circle{fill: none;
+                                                                    stroke: aqua;
+                                                                    stroke-width: 15px;
+                                                                    stroke-dasharray: 450;
+                                                                    stroke-dashoffset: 450;
+                                                                    animation: ani 2s linear forwards;}
+
+                                                                    .ccircle{fill: none;
+                                                                        stroke: aqua;
+                                                                        stroke-width: 15px;
+                                                                        stroke-dasharray: 450;
+                                                                        stroke-dashoffset: 450;
+                                                                        animation: anii 2s linear forwards;}
+
+                                                                        .svg{position: relative;
+                                                                            bottom: 509px;
+                                                                            left: 705px;}
+
+                                                                    .ssvg{position: relative;
+                                                                        bottom: 460px;
+                                                                        left: 965px;}
+
+                                                                        .p p{color: white;}
+                                                                        
+
+
+                                                                .svgg{position: relative;
+                                                                   bottom: 125px;
+                                                                   right: 35px;
+                                                                   left: 165px;}
+
+                                                                   @keyframes anim{
+                                                                    100%{
+                                                                        stroke-dashoffset: 240;
+                                                                    }
+                                                                   }
+
+                                                                   @keyframes ani{
+                                                                    100%{
+                                                                        stroke-dashoffset: 245;
+                                                                    }
+                                                                   }
+
+                                                                   @keyframes anii{
+                                                                    100%{
+                                                                        stroke-dashoffset: 255;
+                                                                    }
+                                                                   }
+
+                                                                   .three{position: relative;
+                                                                    padding-left: 1000px;
+                                                                    bottom: 298px;}
+
+                                                                    .second{position: relative;
+                                                                        padding-left: 740px;
+                                                                        bottom: 348px;}
+
+                                                                        #work{
+                                                                            margin-top: -400px;
+                                                                            padding-top: 70px;
+                                                                        }
+
+                                                                        #work h1{color: white;
+                                                                            text-align: center;}
+
+                                                                            #work{color: white;}
+
+                                                                            
+
+                                                                            .first{font-family: Arial, Helvetica, sans-serif;
+                                                                                padding: 5px;
+                                                                                margin-top: 80px;
+                                                                                padding: 10px;
+                                                                                text-indent: 50px;
+                                                                                line-height: 30px;
+                                                                                
+                                                                                }
+                                                                                .first h2{text-align: center;
+                                                                                    color: aqua;}
+
+                                                                                .first p{text-align: justify;}
+
+                                                                                .seconnd{font-family: Arial, Helvetica, sans-serif;
+                                                                                    padding: 5px;
+                                                                                    margin-top: 80px;
+                                                                                    padding: 10px;
+                                                                                    text-indent: 50px;
+                                                                                    line-height: 30px;
+                                                                                    
+                                                                                    }
+                                                                                    .seconnd h2{text-align: center;
+                                                                                        color: aqua;}
+    
+                                                                                    .seconnd p{text-align: justify;}
+
+                                                                                    .thirdd{font-family: Arial, Helvetica, sans-serif;
+                                                                                        padding: 5px;
+                                                                                        margin-top: 80px;
+                                                                                        padding: 10px;
+                                                                                        text-indent: 50px;
+                                                                                        line-height: 30px;
+                                                                                        
+                                                                                        }
+                                                                                        .thirdd h2{text-align: center;
+                                                                                            color: aqua;}
+        
+                                                                                        .thirdd p{text-align: justify;}
+
+                                                                #contact{margin-top: 50px;
+                                                                    padding-top: 50px;
+                                                                    color: white;
+                                                                    font-size: 20px;
+                                                                    margin-bottom: 100px;}
+
+                                                                    #contact h1{color: aqua;
+                                                                    text-align: center;}
+
+                                                                    .main{display: flex;
+                                                                        justify-content: center;
+                                                                        align-items: center;}
+
+                                                                    .gender{display: flex;
+                                                                        margin: 10px;
+                                                                        font-size: 20px;}
+
+                                                                        .ma{margin-left: 20px;}
+                                                                        .fe{margin-left: 20px;}
+
+                                                     
+                                                                        .name .n{margin: 20px;
+                                                                            height: 40px;
+                                                                            width: 300px;
+                                                                            padding-left: 10px;
+                                                                            background: none;
+                                                                            border: 1px solid aqua;
+                                                                            color: white;
+                                                                            border-radius: 8px;}
+
+                                                                            textarea{height: 350px;
+                                                                                width: 500px;
+                                                                                padding-left: 10px;
+                                                                                padding-top: 5px;
+                                                                                background: none;
+                                                                                border: 1px solid aqua;
+                                                                                border-radius: 10px;}
+
+                                                                                .Suggestions{margin-top: -5px;}
+
+                                                                                .g{
+                                                                                    margin-left: 20px;
+                                                                                    font-size: 20px;
+                                                                                    margin-bottom: 20px;
+                                                                                }
+
+                                                                                .m,.f{margin-left: 10px;
+                                                                                    margin-right: 20px;}
+
+                                                                                    .btn{display: flex;
+                                                                                        justify-content: center;
+                                                                                        align-items: center;}
+
+                                                                                    button{height: 40px;
+                                                                                        width: 150px;
+                                                                                        background: none;
+                                                                                        border: 1px solid aqua;
+                                                                                        border-radius: 30px;
+                                                                                        color: aqua;
+                                                                                        cursor: pointer;
+                                                                                        margin-top: 70px;}
+
+                                                                                       button:hover{background-color: aqua;
+                                                                                        border: none;
+                                                                                        color: black;
+                                                                                        font-weight: bolder;
+                                                                                        box-shadow: 0px 0px 10px aqua;
+                                                                                        transition: 0.5s;}
+
+                                                                                        footer{color: black;
+                                                                                           text-align: center;
+                                                                                            background-color: aqua;}
+
+                                                                                            .ii{color: aqua;
+                                                                                                display: flex;
+                                                                                                justify-content: center;
+                                                                                                align-items: center;}
+
+                                                                                            .ii a{display: inline-block;
+                                                                                                justify-content: center;
+                                                                                                align-items: center;
+                                                                                                text-decoration: none;
+                                                                                                color: aqua;
+                                                                                                width: 45px;
+                                                                                                font-size: 20px;
+                                                                                                border: 1px solid aqua;
+                                                                                                border-radius: 100%;
+                                                                                                padding: 10px;
+                                                                                                margin-left: 20px;
+                                                                                                transition: 0.3s ease-in-out;
+                                                                                            }
+                                                                            
+                                                                                            .ii a:hover{
+                                                                                                transform: scale(1.2) translateY(-3px);
+                                                                                                box-shadow: 0px 0px 8px aqua;
+                                                                                                background-color: aqua;
+                                                                                                color: black;
+                                                                                            }
+                                                                                            .ii a i{
+                                                                                                padding-left: 1.5px;
+                                                                                                padding-top: 2px;
+                                                                                            }
